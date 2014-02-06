@@ -1,0 +1,11 @@
+[user]
+	email = alexmckenley@gmail.com
+	name = Alex's Chromebook
+[credential]
+	helper = cache
+[alias]
+  s = status
+  co = checkout
+  ci = commit
+  br = branch
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
