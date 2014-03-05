@@ -133,5 +133,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+PATH=$PATH:$HOME/.rvm/bin:/opt/mongo/bin/ # Add RVM to PATH for scripting
 

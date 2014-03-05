@@ -47,7 +47,7 @@ Bundle 'tpope/vim-markdown'
 Bundle 'kchmck/vim-coffee-script'
  
 " NERDtree plugin
-Bundle 'scrooloose/nerdtree'
+" Bundle 'scrooloose/nerdtree'
  
 " We have to turn this stuff back on if we want all of our features.
 filetype plugin indent on " Filetype auto-detection
@@ -139,8 +139,8 @@ let g:ctrlp_map = '<c-p>'
 let g:ctrlp_max_height = 30
  
 " NERDTree shortcut
-nmap <leader>n :NERDTreeToggle<cr>
+" nmap <leader>n :NERDTreeToggle<cr>
  
 " Finally the color scheme. Choose whichever you want from the list in the
 " link above (back up where we included the bundle of a ton of themes.)
-colorscheme Monokai 
+colorscheme fu 
