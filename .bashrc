@@ -8,6 +8,13 @@ case $- in
       *) return;;
 esac
 
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+
+# Load in the git branch prompt script.
+source ~/.git-prompt.sh
+
 # ANSI color codes
 RS="\[\033[0m\]"    # reset
 HC="\[\033[1m\]"    # hicolor
@@ -134,4 +141,4 @@ if ! shopt -oq posix; then
 fi
 
 PATH=$PATH:$HOME/.rvm/bin:/opt/mongo/bin/ # Add RVM to PATH for scripting
-
+PS1="\[$FGRN\]\t\[$FRED\]-\[$FBLE\]\u\[$FYEL\]\[$FYEL\]\w\[\033[m\]\[$FMAG\]\$(__git_ps1)\[$FWHT\]\$ "
