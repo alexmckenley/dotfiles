@@ -1,3 +1,6 @@
+" Vundle Install
+" git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+
 set nocompatible " Fuck VI... That's for grandpas.
 filetype off
  
