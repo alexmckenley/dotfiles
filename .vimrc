@@ -1,6 +1,3 @@
-" Vundle Install
-" git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-
 set nocompatible " Fuck VI... That's for grandpas.
 filetype off
  
@@ -137,7 +134,10 @@ nnoremap <leader>c <Plug>CommentaryLine
 " defaults. Additionally, in my OS, I remap caps lock to control. I never use
 " caps lock. This is highly recommended.
 let g:ctrlp_map = '<c-p>'
- 
+" ctrlp ignore options
+set wildignore+=**/node_modules/**
+set wildignore+=**/bower_components/**
+
 " Let ctrlp have up to 30 results.
 let g:ctrlp_max_height = 30
  
