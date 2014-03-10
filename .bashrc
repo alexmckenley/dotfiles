@@ -141,4 +141,5 @@ if ! shopt -oq posix; then
 fi
 
 PATH=$PATH:$HOME/.rvm/bin:/opt/mongo/bin/ # Add RVM to PATH for scripting
-PS1="\[$FGRN\]\t\[$FRED\]-\[$FBLE\]\u\[$FYEL\]\[$FYEL\]\w\[\033[m\]\[$FMAG\]\$(__git_ps1)\[$FWHT\]\$ "
+PS1="$FGRN\t$FRED-$FBLE\u$FYEL$FYEL\w\[\033[m\]$FMAG\$(__git_ps1)$FWHT\$ "
+export GIT_PS1_SHOWDIRTYSTATE=true
