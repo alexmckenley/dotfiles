@@ -26,3 +26,10 @@ attrcolor b ".I"
 termcapinfo xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm' 
 # erase background with current bg color 
 defbce "on"
+
+
+# #Setup screen correctly - add this to /etc/rc.local 
+# mkdir /var/run/screen
+# chmod 775 /var/run/screen
+# chgrp utmp /var/run/screen
+# exit 0 
