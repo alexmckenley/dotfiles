@@ -1,6 +1,6 @@
 [user]
 	email = alexmckenley@gmail.com
-	name = Alex's Chromebook
+	name = Alex Taylor
 [credential]
 	helper = cache
 [alias]
@@ -9,3 +9,5 @@
   ci = commit
   br = branch
   hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+[core]
+	editor = vim
