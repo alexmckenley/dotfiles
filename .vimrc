@@ -100,6 +100,7 @@ vnoremap ; :
 " So we don't have to reach for escape to leave insert mode.
 inoremap jf <esc>
 inoremap jj <esc>
+inoremap fd <esc>
  
 " create new vsplit, and switch to it.
 noremap <leader>v <C-w>v
